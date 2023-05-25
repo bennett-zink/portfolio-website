@@ -16,20 +16,47 @@
 }
 
 .skills-section{
-    height: 600px;
+    height: 1000px;
     width: 100%;
     margin-top: 1%;
     background-color: rgb(255,81,0);
     transition: margin-top .25s;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
 .skills-header{
     color: white;
-    font-size: 36px;
-    margin-top: 24px;
+    font-size: 72px;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 50px;
+
 }
 
+.circle-button-1, .circle-button-2{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    color: white;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 125px;
+    transition: height .25s, width .25s, border-radius .25s;
+}
 
+.circle-button-1{
+    margin-right: 600px;
+}
 
+.circle-button-2{
+    margin-left: 600px;
+}
+
+.circle-button-1:hover, .circle-button-2:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
