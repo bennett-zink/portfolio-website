@@ -1,0 +1,33 @@
+.name{
+    margin-top: 100px;
+    margin-left: 24px;
+}
+
+
+.first-name, .last-name{
+    font-size: 160px;
+    font-weight: 400;
+}
+
+.skills-section{
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 93%;
+    bottom: 0;
+    background-color: rgb(255,81,0);
+    transition: top .3s;
+}
+
+.skills-section:hover{
+    top: 85%;
+}
+
+.arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    width: 48px;
+}
